@@ -1,40 +1,20 @@
-# Welcome to your CDK Java project!
+# Criando microsserviços em Java com AWS ECS e Fargate!
 
-This is a blank project for Java development with CDK.
+Projeto desenvolvido no curso da Udemy 🔥 [Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485) 🔥
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Nesse curso foi desenvolvido duas aplicações utilizando **[Spring Boot](https://spring.io/projects/spring-boot) em containers [Docker](https://www.docker.com)**, para interagir com serviços da AWS.
 
-It is a [Maven](https://maven.apache.org/) based project, so you can open this project with any Maven compatible Java IDE to build and run tests.
-
-## Useful commands
-
- * `mvn package`     compile and run tests
- * `cdk ls`          list all stacks in the app
- * `cdk synth`       emits the synthesized CloudFormation template
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk docs`        open CDK documentation
-
-Enjoy!
-
-
-### Paulo Siécola
-
-Mestre em Ciência da Computação pela Universidade de São Paulo - USP. Desenvolvedor backend e mobile. Instrutor online, professor e autor de livros sobre cloud computing e desenvolvimento mobile 
-
-## Cursos online:
-
-🔥 [Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485) 🔥
+[<img src="imagens/aws_course_image.png" alt="aws_course_image" style="zoom:30%;"/>](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)
 
 Crie a infraestrutura das aplicações baseadas em **Docker** com **AWS CDK**, interagindo com serviços da AWS como **SNS**, **SQS**, **RDS**, **DynamoDB** e **S3**.
 
-[<img src="imagens/aws_course_image.png" alt="aws_course_image" style="zoom:30%;"/>](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)
+[<img src="imagens/projeto.jpg" alt="aws_course_image" style="zoom:30%;"/>](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)
 
 *Áudio em Português e legendas em Português e Espanhol*
 
 
 
-Nesse curso você irá criar duas aplicações utilizando **[Spring Boot](https://spring.io/projects/spring-boot) em containers [Docker](https://www.docker.com)**, para interagir com serviços da AWS como:
+
 
 - **[ECS](https://aws.amazon.com/ecs/):** o Elastic Container Service é o serviço de orquestração de containers da AWS. Com ele é possível gerenciar a execução de aplicações baseados em **containers Docker** de forma robusta e escalável. E com o **[AWS Fargate](https://aws.amazon.com/fargate)**, o **[Serverless](https://aws.amazon.com/serverless/)** compute for containers da AWS, não é necessário criar instâncias de máquinas EC2, reduzindo o custo de operação de aplicações baseadas em containers;
 - **[RDS](https://aws.amazon.com/rds/)**: o Relational Database Service é um recurso que permite a criação de instâncias de banco de dados, com serviços como backups automáticos e diretrizes de segurança de acesso;
